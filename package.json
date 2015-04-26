@@ -1,0 +1,36 @@
+{
+  "name": "list.html",
+  "version": "0.0.0",
+  "description": "<list> tag for gutentag",
+  "main": "list.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriskowal/list.html.git"
+  },
+  "keywords": [
+    "list",
+    "tag",
+    "gutentag"
+  ],
+  "author": "Kris Kowal <kris@cixar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kriskowal/list.html/issues"
+  },
+  "homepage": "https://github.com/kriskowal/list.html#readme",
+  "dependencies": {
+    "gutentag": "^1.0.4",
+    "koerper": "^1.0.5",
+    "mr": "^2.0.7"
+  },
+  "translators": {
+    "html": "gutentag/translate-html"
+  },
+  "devDependencies": {
+    "less": "^2.5.0",
+    "one-dark-ui": "atom/one-dark-ui"
+  }
+}
