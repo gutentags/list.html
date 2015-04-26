@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kriskowal/list.html.git"
+    "url": "git+https://github.com/gutentags/list.html.git"
   },
   "keywords": [
     "list",
@@ -18,9 +18,9 @@
   "author": "Kris Kowal <kris@cixar.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kriskowal/list.html/issues"
+    "url": "https://github.com/gutentags/list.html/issues"
   },
-  "homepage": "https://github.com/kriskowal/list.html#readme",
+  "homepage": "https://github.com/gutentags/list.html#readme",
   "dependencies": {
     "gutentag": "^1.0.4",
     "koerper": "^1.0.5",
