@@ -6,13 +6,6 @@ export PATH="$HERE/node_modules/.bin":"$PATH"
 export GIT_DIR="$HERE/.git"
 export GIT_INDEX_FILE=$(mktemp "$GIT_DIR/TEMP.XXXXXX")
 
-export GIT_AUTHOR_NAME="Kris Kowal"
-export GIT_AUTHOR_EMAIL="kris@cixar.com"
-export GIT_AUTHOR_DATE="$NOW"
-export GIT_COMMITTER_NAME="Kris Kowal"
-export GIT_COMMITTER_EMAIL="kris@cixar.com"
-export GIT_COMMITTER_DATE="$NOW"
-
 function gentree1() {
     JS_BUNDLE=$(git hash-object -w <(mrs index.js))
     echo "100644 blob $JS_BUNDLE"$'\t'"bundle.js"
